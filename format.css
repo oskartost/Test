@@ -1,0 +1,20 @@
+body{
+	background-color: purple;
+	}
+
+#content {
+	width: 80%;
+	margin: auto;
+}
+
+#text {
+	background-color: gray;
+}
+
+#list {
+	background-color: yellow;
+}
+
+#button1 {
+	width: 50%;
+}

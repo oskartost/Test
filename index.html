@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<title> Basketball HTML </title>
+		<link rel = "stylesheet" type = "text/css" href = "format.css">
+		<meta name = "viewport" content = "width-device-width, initial-scale-1">
+		<script type="text/javascript" src="Exercise.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+	</head>
+	
+	<body>
+		<div id = "newContent"> </div>
+		<button id = "button1" onclick = "insertText ()"> Test </button>
+		
+		<div id = "content">
+		
+			<h1> Basketball spil</h1>
+			<br>
+			<div id = text>
+				Basketball spillet handler om at score så mange point som muligt
+				på 30 sekunder.
+			</div>
+			<br>
+			<a href = "https://da.wikipedia.org/wiki/Basketball"> Wiki omkring basketball</a>
+			<br>
+			<div id = "list">
+				<ol>
+					<li> Casper 20 point</li>
+					<li> Oskar 200 point</li>
+				</ol>
+			</div>
+			<br>
+		</div>
+		
+		Calculate the volume of a box <br>
+		<input type = "text" id = "widthBox" /> <br><br>
+		<input type = "text" id = "lenthBox" /> <br><br>
+		<input type = "text" id = "heigthBox" /> <br><br>
+		<button onclick = "calculate ()"> Calculate </button>
+		<br><br>
+		<div id = "result"></div>
+		<br><br>
+		
+		<input type = "text" id = "factor" /> <br><br>
+		<button onclick = "multiplication()"> Calculate </button>
+		<div id = "mult-tb"></div>
+	</body>
+
+</html>
